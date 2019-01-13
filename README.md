@@ -1,4 +1,4 @@
-This is the course work for a course on udemy
+###### This is the course work for a course on udemy
 
-##Cryptodash v1.0
-A crypto currency tracker dashboard
+# Cryptodash v1.0 - Crypto currency dashboard
+A crypto currency tracker dashboard build using react
