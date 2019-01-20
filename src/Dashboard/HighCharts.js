@@ -1,6 +1,6 @@
 import React from  'react';
 
-export default function(){
+export default function(historical){
   return{
 
     title: {
@@ -12,6 +12,7 @@ export default function(){
         text: 'Price'
       }
     },
+    xAxis:{type: 'datetime'},
     legend: {
       layout: 'vertical',
       align: 'right',
@@ -27,10 +28,7 @@ export default function(){
       }
     },
 
-    series: [{
-      name: 'Installation',
-      data: [43934, 52503, 57177, 69658, 97031, 119931, 137133, 154175]
-    },
+    series: historical,
     // These add more lines to the graph, Saving for future expirmentation
     // {
     //   name: 'Manufacturing',
@@ -45,7 +43,6 @@ export default function(){
     //   name: 'Other',
     //   data: [12908, 5948, 8105, 11248, 8989, 11816, 18274, 18111]
     // }
-  ],
 
     responsive: {
       rules: [{
