@@ -17,6 +17,7 @@ export default function() {
           defaultValue ={"months"}
           onChange={e => changeChartSelect(e.target.value)}
         >
+          <option value="seconds">Seconds</option>
           <option value="days">Days</option>
           <option value="weeks">Weeks</option>
           <option value="months">Months</option>
